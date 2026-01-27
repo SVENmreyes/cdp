@@ -71,8 +71,14 @@
 }
 
 @media screen and (min-width: 1200px) { 
-	#personyze_top_banner .cdp-banner-image {
-		height: calc(100vh - 96px);
+	#personyze_top_banner .cdp-banner-image .cdp-web {
+		width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+        vertical-align: middle;
+        height: calc(100vh - 96px);
 	}
 }
 @media screen and (min-width: 575px) { 
