@@ -1,20 +1,3 @@
-@media screen and (min-width: 575px) { 
-	#personyze_top_banner .cdp-banner-image .cdp-mobile {
-		display: none;
-	}
-	#personyze_top_banner .cdp-banner-image .cdp-web {
-		display: block;
-	}
-}
-@media screen and (max-width: 574px) { 
-	#personyze_top_banner .cdp-banner-image .cdp-mobile {
-		display: block;
-	}
-	#personyze_top_banner .cdp-banner-image .cdp-web {
-		display: none;
-	}
-}
-
 #personyze_top_banner {
 	padding: 0; 
 	width: 100%; 
@@ -86,5 +69,26 @@
 	text-transform: uppercase;
 	text-decoration: none;
 }
-	
+
+@media screen and (min-width: 1200px) { 
+	#personyze_top_banner .cdp-banner-image {
+		height: calc(100vh - 96px);
+	}
+}
+@media screen and (min-width: 575px) { 
+	#personyze_top_banner .cdp-banner-image .cdp-mobile {
+		display: none;
+	}
+	#personyze_top_banner .cdp-banner-image .cdp-web {
+		display: block;
+	}
+}
+@media screen and (max-width: 574px) { 
+	#personyze_top_banner .cdp-banner-image .cdp-mobile {
+		display: block;
+	}
+	#personyze_top_banner .cdp-banner-image .cdp-web {
+		display: none;
+	}
+}
 
