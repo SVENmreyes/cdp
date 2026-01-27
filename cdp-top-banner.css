@@ -6,6 +6,14 @@
 		display: block;
 	}
 }
+@media screen and (max-width: 574px) { 
+	#personyze_top_banner .cdp-banner-image .cdp-mobile {
+		display: block;
+	}
+	#personyze_top_banner .cdp-banner-image .cdp-web {
+		display: none;
+	}
+}
 
 #personyze_top_banner {
 	padding: 0; 
