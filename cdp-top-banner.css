@@ -72,6 +72,7 @@
 
 @media screen and (min-width: 1200px) { 
 	#personyze_top_banner .cdp-banner-image .cdp-web {
+		display: block;
 		width: 100%;
         -o-object-fit: cover;
         object-fit: cover;
@@ -80,8 +81,11 @@
         vertical-align: middle;
         height: calc(100vh - 96px);
 	}
+	#personyze_top_banner .cdp-banner-image .cdp-mobile {
+		display: none;
+	}
 }
-@media screen and (min-width: 575px) { 
+@media screen (min-width: 575px) and (max-width: 1119px) { 
 	#personyze_top_banner .cdp-banner-image .cdp-mobile {
 		display: none;
 	}
