@@ -1,3 +1,9 @@
+@media screen and (min-width: 575px) { 
+	#personyze_top_banner .cdp-banner-image .cdp-mobile {
+		display: none;
+	}
+}
+
 #personyze_top_banner {
 	padding: 0; 
 	width: 100%; 
@@ -10,12 +16,6 @@
 		position: relative;
 		width: 100%;
 		height: calc(100vh - 96px);
-
-		@media screen and (min-width: 575px) { 
-			.cdp-web {
-				display: none;
-			}
-		}
 	}
 }
 
@@ -30,6 +30,7 @@
 	flex-direction: column;
 	max-width: 480px;
 	
+
 	p.cdp-title {
 		color: #FFFFFF;
 		font-weight: 900;
