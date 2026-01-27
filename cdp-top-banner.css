@@ -1,0 +1,10 @@
+@media screen and (min-width: 575px) { 
+	#personyze_top_banner .banner-image {
+		background-image: url('https://uat-tmp-cdn.sys.network/personyze/banners/Toyota+Top+Banner+Sample.webp');
+	}
+}
+@media screen and (max-width: 574px) {
+  	#personyze_top_banner .banner-image {
+  		background-image: url('https://uat-tmp-cdn.sys.network/personyze/banners/Toyota-%20Top%20Banner-Mobile_Test%20copy.webp');
+  	}
+}
