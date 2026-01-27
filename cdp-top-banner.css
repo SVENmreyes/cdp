@@ -22,13 +22,13 @@
 	margin: 0 5%;
 	display: flex;
 	flex-direction: column;
-	max-width: 480px;
+	max-width: 400px;
 	
 
 	p.cdp-title {
 		color: #FFFFFF;
 		font-weight: 900;
-		font-size: 54px;
+		font-size: 3rem;
 		line-height: 100%;
 		margin: 0;
 	}
