@@ -85,7 +85,7 @@
 		display: none;
 	}
 }
-@media screen (min-width: 575px) and (max-width: 1119px) { 
+@media screen (min-width: 575px) and (max-width: 1199px) { 
 	#personyze_top_banner .cdp-banner-image .cdp-mobile {
 		display: none;
 	}
