@@ -70,29 +70,32 @@
 	text-decoration: none;
 }
 
-@media screen and (min-width: 1200px) { 
-	#personyze_top_banner .cdp-banner-image .cdp-web {
-		display: block;
-		width: 100%;
-        -o-object-fit: cover;
-        object-fit: cover;
-        -o-object-position: center;
-        object-position: center;
-        vertical-align: middle;
-        height: calc(100vh - 96px);
-	}
+/* All sizes and big format (desktop) */
+#personyze_top_banner .cdp-banner-image .cdp-web {
+	display: block;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center;
+	object-position: center;
+	vertical-align: middle;
+	height: calc(100vh - 96px);
+}
+#personyze_top_banner .cdp-banner-image .cdp-mobile {
+	display: none;
+}
+
+/* Tablet & Small Desktops */
+@media screen and (max: 1199px) { 
 	#personyze_top_banner .cdp-banner-image .cdp-mobile {
 		display: none;
 	}
-}
-@media screen and (min-width: 575px) { 
-	#personyze_top_banner .cdp-banner-image .cdp-mobile {
-		display: none;
-	}
 	#personyze_top_banner .cdp-banner-image .cdp-web {
 		display: block;
 	}
 }
+
+/* Mobile */
 @media screen and (max-width: 574px) { 
 	#personyze_top_banner .cdp-banner-image .cdp-mobile {
 		display: block;
@@ -101,4 +104,5 @@
 		display: none;
 	}
 }
+
 
