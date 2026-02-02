@@ -49,25 +49,24 @@
 		line-height: 17.11px;
 		margin: 1rem 0;
 	}
+
+	p.cdp-buttons a {
+		text-align: center;
+		padding: 12px 24px;
+		text-transform: uppercase;
+		text-decoration: none;
+		border: 1px solid white;
+	}
 }
 
 #personyze_top_banner a.cdp-btn-solid {
-	text-align: center;
-	padding: 12px 24px;
-	border: 1px solid white;
 	color: #101010;
 	background-color: white;
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 #personyze_top_banner a.cdp-btn-outline {
-	text-align: center;
-	padding: 12px 24px;
 	border: 1px solid white;
 	color: white;
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 /* All sizes and big format (desktop) */
@@ -102,6 +101,13 @@
 	}
 	#personyze_top_banner .cdp-banner-image .cdp-web {
 		display: none;
+	}
+	#personyze_top_banner p.cdp-buttons {
+		font-weight: 600;
+		font-size: .75px;
+	}
+	#personyze_top_banner a {
+		padding: 10px;
 	}
 }
 
