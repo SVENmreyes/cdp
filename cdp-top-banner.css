@@ -102,11 +102,10 @@
 	#personyze_top_banner .cdp-banner-image .cdp-web {
 		display: none;
 	}
-	#personyze_top_banner p.cdp-buttons {
-		font-weight: 600;
-		font-size: .75px;
+	#personyze_top_banner .cdp-banner-content p.cdp-buttons {
+		font-size: .75rem;
 	}
-	#personyze_top_banner a {
+	#personyze_top_banner .cdp-banner-content p.cdp-buttons a {
 		padding: 10px;
 	}
 }
